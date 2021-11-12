@@ -10,3 +10,7 @@ RUN conda install -y \
 
 RUN pip install -U --no-cache-dir \
     numpy==1.20.2
+
+RUN mkdir /opt/code
+
+RUN cd /opt/code

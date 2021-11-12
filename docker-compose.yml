@@ -1,0 +1,12 @@
+version: '3'
+services: 
+    dras:
+        container_name: dras-run
+        build: .
+        restart: unless-stopped
+        volumes:
+            - /home/lothus/Python-Docker/COMP5704/code:/opt/code
+        networks:
+            - default
+        stdin_open: true
+        tty: true
