@@ -118,7 +118,7 @@ class Filter_job_SWF(filter_job.Filter_job):
                             if not con_data['name'] and con_data['name_config'] == 'start_offset':
                                 con_data['value'] = min_sub-self.start
                                 break
-                            
+#Data decomposition in the code (.csv file read)                                
                     tempInfo = {'id':int(ID),\
                                 'submit':self.density*(float(submit)-min_sub)+self.start,\
                                 'wait':float(wait),\

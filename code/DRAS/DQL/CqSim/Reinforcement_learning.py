@@ -6,11 +6,13 @@ import tensorflow as tf
 #import matplotlib.pyplot as plt
 #import IPython.display as ipydis
 # turn off all the deprecation warnings
+'''
 tf.logging.set_verbosity(logging.ERROR)
 # turn on eager execution
 tf.enable_eager_execution()
 tfe = tf.contrib.eager
 print('Tensorflow Version: %s',tf.__version__)
+'''
 
 __metaclass__ = type
 
