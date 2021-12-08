@@ -97,8 +97,9 @@ class Node_struc_SWF(Class_Node_struc.Node_struc):
                     return 0
             i += 1
         return 1
-        
-    def reserve(self, proc_num, job_index, time, start = None, index = -1 ):
+
+    #Change the start from None to 0 (Mario)    
+    def reserve(self, proc_num, job_index, time, start = 0, index = -1 ):
         #self.debug.debug("* "+self.myInfo+" -- reserve",5)
             
         temp_max = len(self.predict_node)
@@ -123,7 +124,6 @@ class Node_struc_SWF(Class_Node_struc.Node_struc):
                         i = j + 1
                 else:
                     i += 1
-
         end = start + time
         j = i
                 

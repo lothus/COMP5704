@@ -10,3 +10,8 @@ services:
             - default
         stdin_open: true
         tty: true
+        deploy:
+            resources:
+                reservations:
+                    devices:
+                    - capabilities: [gpu]

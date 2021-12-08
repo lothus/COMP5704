@@ -110,9 +110,9 @@ class ForwardAgent():
         # for learning rate decay
         # https://towardsdatascience.com/learning-rate-schedules-and-adaptive-learning-rate-methods-for-deep-learning-2c8f433990d1
         self.lr_init = 0.1
-        self.decay = tfe.Variable(0.75)
-        self.period = tfe.Variable(1.0e5)
-        self.lrvar = tfe.Variable(self.lr_init)
+        self.decay = tf.Variable(0.75)
+        self.period = tf.Variable(1.0e5)
+        self.lrvar = tf.Variable(self.lr_init)
   
         self.opt = tf.train.AdamOptimizer()
 
