@@ -8,14 +8,14 @@ python cqsim.py -j $inputFile -n $inputFile −−is training 1
 
 cd ..
 
-mv data/Results/test.rst /opt/code/results/PG_results_edith.rst
-mv data/Results/test.ult /opt/code/results/PG_results_edith.ult
+mv /opt/code/DRAS/data/Results/edith1.rst /opt/code/results/PG_results_edith1.rst
+mv /opt/code/DRAS/data/Results/edith1.ult /opt/code/results/PG_results_edith1.ult
 
-# cd /opt/code/DRAS/DQL/
+cd /opt/code/DRAS/DQL/
 
-# python cqsim.py -j $inputFile -n $inputFile −−is training 1
+python cqsim.py -j $inputFile -n $inputFile −−is training 1
 
-# cd ..
+cd ..
 
-# mv data/Results/test.rst /opt/code/results/DQL_results_edith.rst
-# mv data/Results/test.ult /opt/code/results/DQL_results_edith.ult
+mv /opt/code/DRAS/data/Results/edith1.rst /opt/code/results/DQL_results_edith1.rst
+mv /opt/code/DRAS/data/Results/edith1.ult /opt/code/results/DQL_results_edith1.ult

@@ -8,8 +8,8 @@ python cqsim.py -j $inputFile -n $inputFile −−is training 0
 
 cd ..
 
-mv /opt/code/DRAS/data/Results/test.rst /opt/code/results/PG_results_test_edith.rst
-mv /opt/code/DRAS/data/Results/test.ult /opt/code/results/PG_results_test_edith.ult
+mv /opt/code/DRAS/data/Results/edith1.rst /opt/code/results/PG_results_test_edith1.rst
+mv /opt/code/DRAS/data/Results/edith1.ult /opt/code/results/PG_results_test_edith1.ult
 
 cd /opt/code/DRAS/DQL/
 
@@ -17,5 +17,5 @@ python cqsim.py -j $inputFile -n $inputFile −−is training 0
 
 cd ..
 
-mv /opt/code/DRAS/data/Results/test.rst /opt/code/results/DQL_results_test_edith.rst
-mv /opt/code/DRAS/data/Results/test.ult /opt/code/results/DQL_results_test_edith.ult
+mv /opt/code/DRAS/data/Results/edith1.rst /opt/code/results/DQL_results_test_edith1.rst
+mv /opt/code/DRAS/data/Results/edith1.ult /opt/code/results/DQL_results_test_edith1.ult
